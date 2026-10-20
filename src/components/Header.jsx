@@ -22,7 +22,7 @@ const Header = () => {
     return (
     <header className="sticky top-0 z-10 border-b border-stone-200 bg-chalk/90 backdrop-blur">
     <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-      <a href="#" className="text-xl font-extrabold text-leaf">Invento App</a>
+      <a href="#" className="text-xl font-extrabold text-leaf">  Invento <span className="bg-amber-200 p-1 rounded-xl"> APP</span> </a>
       <ul className="flex items-center gap-6 text-sm font-medium">
         <li><a href="#categories" className="hover:text-leaf">Products Count: <span> {products.length}</span></a></li>
         <li>
@@ -39,7 +39,7 @@ const Header = () => {
                         ? "bg-blue-600 text-white px-3 py-2 rounded-md font-bold"
                         : "text-slate-300 hover:text-white px-3 py-2"
                     }
-            > Invento </NavLink>
+            >  Invento </NavLink>
         </li>
       </ul>
     </nav>
